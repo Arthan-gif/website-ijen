@@ -670,6 +670,213 @@ body.nav-terbuka {
   gap: var(--sp-3);
 }
 
+/* ---------- Poles visual beranda ---------- */
+body[data-page='beranda'] .site-header {
+  background: var(--color-header-bg);
+  box-shadow: 0 1px 0 rgba(15, 17, 21, 0.06);
+}
+body[data-page='beranda'] .site-header__inner {
+  min-height: 4.5rem;
+}
+body[data-page='beranda'] .brand {
+  font-size: 1.4rem;
+}
+body[data-page='beranda'] .brand__mark {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+body[data-page='beranda'] .lang-switch {
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  border-width: 1px;
+  border-radius: var(--r-sm);
+}
+body[data-page='beranda'] .site-header .btn {
+  border-radius: var(--r-sm);
+}
+body[data-page='beranda'] .nav__link[aria-current='page'] {
+  color: var(--color-primary);
+}
+
+body[data-page='beranda'] .hero {
+  padding-block: 4.5rem;
+  background:
+    linear-gradient(112deg, rgba(10, 18, 25, 0.98), rgba(19, 34, 39, 0.96)),
+    var(--color-dark-bg);
+}
+body[data-page='beranda'] .hero::before {
+  background:
+    radial-gradient(ellipse at 78% 48%, rgba(31, 158, 144, 0.2), transparent 46%),
+    radial-gradient(ellipse at 6% 100%, rgba(242, 194, 48, 0.1), transparent 48%);
+}
+body[data-page='beranda'] .hero__inner {
+  position: relative;
+  isolation: isolate;
+  align-items: center;
+  gap: 2rem;
+}
+body[data-page='beranda'] .hero__inner::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  right: 0;
+  width: min(43vw, 30rem);
+  aspect-ratio: 1;
+  transform: translate(5%, -50%);
+  border: 1px solid rgba(232, 240, 230, 0.12);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, rgba(242, 194, 48, 0.12) 0 2%, transparent 2.5%),
+    repeating-radial-gradient(circle, transparent 0 24px, rgba(232, 240, 230, 0.1) 25px 26px, transparent 27px 43px);
+  box-shadow: 0 0 0 1rem rgba(232, 240, 230, 0.025), 0 0 0 2rem rgba(232, 240, 230, 0.02);
+  pointer-events: none;
+}
+body[data-page='beranda'] .hero__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: var(--sp-4);
+  color: var(--c-belerang-300);
+  letter-spacing: 0.1em;
+}
+body[data-page='beranda'] .hero__eyebrow::before {
+  content: '';
+  width: 1.75rem;
+  height: 1px;
+  background: var(--c-belerang-500);
+}
+body[data-page='beranda'] .hero__title {
+  max-width: 12ch;
+  margin-bottom: var(--sp-4);
+}
+body[data-page='beranda'] .hero__lead {
+  max-width: 42ch;
+  margin-bottom: var(--sp-5);
+  color: #d2d9d7;
+}
+body[data-page='beranda'] .hero__actions .btn {
+  min-height: 3.25rem;
+  padding-inline: 1.2rem;
+  border-radius: var(--r-sm);
+}
+body[data-page='beranda'] .hero__actions .btn--kedua {
+  border-color: rgba(232, 240, 230, 0.45);
+}
+body[data-page='beranda'] .hero__actions .btn--kedua:hover {
+  border-color: rgba(232, 240, 230, 0.8);
+}
+body[data-page='beranda'] .hero__art {
+  width: min(100%, 29rem);
+  padding: 1rem;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(232, 240, 230, 0.08), transparent 70%);
+  filter: drop-shadow(0 1.5rem 2.5rem rgba(0, 0, 0, 0.18));
+}
+body[data-page='beranda'] .hero__art .art-gunung {
+  fill: #293a3b;
+}
+body[data-page='beranda'] .hero__art .art-kawah {
+  fill: #43b7a4;
+}
+body[data-page='beranda'] .hero__art .art-asap {
+  fill: var(--c-belerang-500);
+  opacity: 0.48;
+}
+body[data-page='beranda'] .hero + .strata {
+  height: 0.55rem;
+  background: linear-gradient(90deg, var(--c-basal-800) 0 18%, var(--c-belerang-500) 18% 27%, var(--c-kawah-500) 27% 73%, var(--c-basal-700) 73%);
+}
+
+body[data-page='beranda'] .cta-band {
+  padding-block: var(--sp-7);
+  background: #e9d995;
+}
+body[data-page='beranda'] .cta-band__inner {
+  gap: var(--sp-4) var(--sp-6);
+}
+body[data-page='beranda'] .cta-band__title {
+  max-width: 22ch;
+}
+body[data-page='beranda'] .cta-band .btn {
+  min-height: 3rem;
+  border-radius: var(--r-sm);
+}
+body[data-page='beranda'] .site-footer > .strata {
+  height: 0.55rem;
+  background: linear-gradient(90deg, var(--c-belerang-500) 0 12%, var(--c-kawah-500) 12% 58%, var(--c-basal-700) 58%);
+}
+body[data-page='beranda'] .site-footer__grid {
+  padding-block: var(--sp-7);
+}
+body[data-page='beranda'] .site-footer__brand {
+  max-width: 24ch;
+}
+body[data-page='beranda'] .site-footer__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--sp-2) var(--sp-5);
+  padding-bottom: var(--sp-5);
+}
+body[data-page='beranda'] .site-footer__bottom p {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  body[data-page='beranda'] .hero {
+    padding-block: 6.5rem;
+  }
+  body[data-page='beranda'] .hero__inner {
+    grid-template-columns: minmax(0, 1.15fr) minmax(17rem, 0.85fr);
+    min-height: 29rem;
+  }
+  body[data-page='beranda'] .hero__art {
+    justify-self: end;
+  }
+}
+
+@media (max-width: 767px) {
+  body[data-page='beranda'] .hero {
+    padding-block: 3.75rem 3rem;
+  }
+  body[data-page='beranda'] .hero__inner::before {
+    top: 74%;
+    right: -3rem;
+    width: 18rem;
+  }
+  body[data-page='beranda'] .hero__art {
+    width: min(100%, 18rem);
+    justify-self: end;
+    margin-top: -0.5rem;
+  }
+  body[data-page='beranda'] .cta-band__actions .btn {
+    flex: 1 1 12rem;
+  }
+}
+
+@media (max-width: 360px) {
+  body[data-page='beranda'] .site-header__inner {
+    width: calc(100% - 1.5rem);
+    gap: var(--sp-1);
+  }
+  body[data-page='beranda'] .brand {
+    gap: var(--sp-1);
+    font-size: 1.2rem;
+  }
+  body[data-page='beranda'] .brand__mark {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  body[data-page='beranda'] .lang-switch {
+    padding-inline: var(--sp-1);
+  }
+  body[data-page='beranda'] .site-header .btn--kecil {
+    padding-inline: 0.55rem;
+    font-size: 0.8125rem;
+  }
+}
+
 /* ---------- Gerak dikurangi ---------- */
 @media (prefers-reduced-motion: reduce) {
   *,
