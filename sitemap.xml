@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.org/id/</loc>
+    <xhtml:link rel="alternate" hreflang="id" href="https://example.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.org/en/"/>
+  </url>
+  <url>
+    <loc>https://example.org/en/</loc>
+    <xhtml:link rel="alternate" hreflang="id" href="https://example.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.org/en/"/>
+  </url>
+  <url>
+    <loc>https://example.org/id/tentang/</loc>
+    <xhtml:link rel="alternate" hreflang="id" href="https://example.org/id/tentang/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.org/en/about/"/>
+  </url>
+  <url>
+    <loc>https://example.org/en/about/</loc>
+    <xhtml:link rel="alternate" hreflang="id" href="https://example.org/id/tentang/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.org/en/about/"/>
+  </url>
+  <url>
+    <loc>https://example.org/id/jelajahi/</loc>
+    <xhtml:link rel="alternate" hreflang="id" href="https://example.org/id/jelajahi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.org/en/explore/"/>
+  </url>
+  <url>
+    <loc>https://example.org/en/explore/</loc>
+    <xhtml:link rel="alternate" hreflang="id" href="https://example.org/id/jelajahi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.org/en/explore/"/>
+  </url>
+  <url>
+    <loc>https://example.org/id/coba-langsung/</loc>
+    <xhtml:link rel="alternate" hreflang="id" href="https://example.org/id/coba-langsung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.org/en/hands-on/"/>
+  </url>
+  <url>
+    <loc>https://example.org/en/hands-on/</loc>
+    <xhtml:link rel="alternate" hreflang="id" href="https://example.org/id/coba-langsung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.org/en/hands-on/"/>
+  </url>
+  <url>
+    <loc>https://example.org/id/untuk-sekolah/</loc>
+    <xhtml:link rel="alternate" hreflang="id" href="https://example.org/id/untuk-sekolah/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.org/en/for-schools/"/>
+  </url>
+  <url>
+    <loc>https://example.org/en/for-schools/</loc>
+    <xhtml:link rel="alternate" hreflang="id" href="https://example.org/id/untuk-sekolah/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.org/en/for-schools/"/>
+  </url>
+  <url>
+    <loc>https://example.org/id/kuis-galeri-agenda/</loc>
+    <xhtml:link rel="alternate" hreflang="id" href="https://example.org/id/kuis-galeri-agenda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.org/en/quiz-gallery-events/"/>
+  </url>
+  <url>
+    <loc>https://example.org/en/quiz-gallery-events/</loc>
+    <xhtml:link rel="alternate" hreflang="id" href="https://example.org/id/kuis-galeri-agenda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.org/en/quiz-gallery-events/"/>
+  </url>
+  <url>
+    <loc>https://example.org/id/kunjungi/</loc>
+    <xhtml:link rel="alternate" hreflang="id" href="https://example.org/id/kunjungi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.org/en/visit/"/>
+  </url>
+  <url>
+    <loc>https://example.org/en/visit/</loc>
+    <xhtml:link rel="alternate" hreflang="id" href="https://example.org/id/kunjungi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.org/en/visit/"/>
+  </url>
+</urlset>

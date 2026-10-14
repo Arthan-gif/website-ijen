@@ -1,0 +1,212 @@
+{
+  "_catatan": "ALL English site text. Key structure must match id.json exactly. Keys starting with _ are notes and never shown. After editing, run Build (Ctrl+Shift+B).",
+  "meta": {
+    "situs": {
+      "nama": "PIGGI",
+      "namaPanjang": "Ijen Geopark Geological Information Center",
+      "judulBeranda": "PIGGI · Ijen Geopark Geological Information Center, Banyuwangi",
+      "lokasiSingkat": "Banyuwangi, East Java, Indonesia",
+      "_verifikasi": "[VERIFIKASI] Official English name not yet confirmed by PIGGI."
+    },
+    "locale": "en_US",
+    "routes": {
+      "beranda": "",
+      "tentang": "about",
+      "jelajahi": "explore",
+      "coba-langsung": "hands-on",
+      "untuk-sekolah": "for-schools",
+      "kuis-galeri-agenda": "quiz-gallery-events",
+      "kunjungi": "visit",
+      "paspor": "passport",
+      "qr": "qr",
+      "escape": "escape",
+      "tiket": "ticket",
+      "staf": "staff"
+    }
+  },
+  "nav": {
+    "aria": "Main navigation",
+    "lewati": "Skip to main content",
+    "keBeranda": "PIGGI, go to home page",
+    "buka": "Open menu",
+    "tutup": "Close menu",
+    "items": {
+      "beranda": "Home",
+      "tentang": "About PIGGI",
+      "jelajahi": "Explore PIGGI",
+      "coba-langsung": "Hands-on",
+      "untuk-sekolah": "For Schools",
+      "kuis-galeri-agenda": "Quiz, Gallery & Events",
+      "kunjungi": "Visit & Book"
+    }
+  },
+  "bahasa": {
+    "kode": "EN",
+    "nama": "English",
+    "lainKode": "ID",
+    "lainAria": "Baca halaman ini dalam Bahasa Indonesia"
+  },
+  "cta": {
+    "reservasi": "Book a visit",
+    "wa": "Ask us on WhatsApp"
+  },
+  "footer": {
+    "tagline": "An information center and educational visit on the geology, nature, and culture of Ijen Geopark.",
+    "jelajah": "Explore",
+    "kontakJudul": "Contact",
+    "kontakIsi": "Address, opening hours, and official contacts will be listed here. [ISI DARI PIGGI]",
+    "hak": "PIGGI",
+    "catatanData": "Some information on this site is still awaiting verification by PIGGI."
+  },
+  "umum": {
+    "pilihBahasa": "Choose a language",
+    "segera": {
+      "label": "Coming soon",
+      "teks": "This page is being prepared. In the meantime, browse the other pages or check visit availability."
+    },
+    "e404": {
+      "judul": "Page not found",
+      "teks": "The link may be wrong, or the page has moved.",
+      "kembali": "Back to home"
+    }
+  },
+  "halaman": {
+    "beranda": {
+      "meta": {
+        "title": "Home",
+        "description": "The information center and educational visit for Ijen Geopark geology in Banyuwangi, Indonesia. Check availability and book your visit to PIGGI online."
+      },
+      "hero": {
+        "eyebrow": "Ijen Geopark Geological Information Center",
+        "judul": "See Ijen up close, then try it yourself.",
+        "lead": "Discover the geology, nature, and culture of Ijen Geopark. At PIGGI, you can observe, experiment, and play hands-on.",
+        "tombolUtama": "Check availability & book",
+        "tombolKedua": "Explore PIGGI"
+      },
+      "cta": {
+        "judul": "Ready to see it for real?",
+        "teks": "Pick a date, check what's left, and book your visit. Check-in and payment (if any) happen at PIGGI.",
+        "tombol": [
+          { "label": "Book now", "route": "kunjungi#reservasi", "gaya": "utama", "track": "klik_reservasi" },
+          { "label": "Explore PIGGI", "route": "jelajahi", "gaya": "kedua", "track": "" }
+        ]
+      }
+    },
+    "tentang": {
+      "meta": {
+        "title": "About PIGGI",
+        "description": "What PIGGI is, its history, role, and goals as the geological information center of Ijen Geopark in Banyuwangi."
+      },
+      "cta": {
+        "judul": "Now that you know us, come by.",
+        "teks": "See opening hours, location, and visit availability.",
+        "tombol": [
+          { "label": "Visit PIGGI", "route": "kunjungi", "gaya": "utama", "track": "" }
+        ]
+      }
+    },
+    "jelajahi": {
+      "meta": {
+        "title": "Explore PIGGI",
+        "description": "PIGGI floor map: each floor tells one chapter of the Ijen story, from how it formed to its people and culture."
+      },
+      "cta": {
+        "judul": "Curious what you can try?",
+        "teks": "See the activities and games you'll only find at PIGGI.",
+        "tombol": [
+          { "label": "See activities", "route": "coba-langsung", "gaya": "utama", "track": "" }
+        ]
+      }
+    },
+    "coba-langsung": {
+      "meta": {
+        "title": "Hands-on",
+        "description": "Hands-on activities and games at PIGGI: observe, experiment, and collect Geologist Passport stamps during your visit."
+      },
+      "cta": {
+        "judul": "This one you have to try in person.",
+        "teks": "Book a visit slot and experience it yourself.",
+        "tombol": [
+          { "label": "Book a visit", "route": "kunjungi#reservasi", "gaya": "utama", "track": "klik_reservasi" }
+        ]
+      }
+    },
+    "untuk-sekolah": {
+      "meta": {
+        "title": "For Schools",
+        "description": "School group visits to PIGGI by level, links to the curriculum, and downloadable worksheets."
+      },
+      "cta": {
+        "judul": "Bring your class to PIGGI.",
+        "teks": "Book a group slot and register interest in the escape room.",
+        "tombol": [
+          { "label": "Book a group visit", "route": "kunjungi?jenis=rombongan#reservasi", "gaya": "utama", "track": "klik_reservasi" }
+        ]
+      }
+    },
+    "kuis-galeri-agenda": {
+      "meta": {
+        "title": "Quiz, Gallery & Events",
+        "description": "A warm-up quiz before visiting PIGGI, a photo gallery, and upcoming events. Redeem your quiz code when you visit."
+      },
+      "cta": {
+        "judul": "Got a quiz code?",
+        "teks": "Redeem it at PIGGI for a bonus Geologist Passport stamp.",
+        "tombol": [
+          { "label": "Book a visit", "route": "kunjungi#reservasi", "gaya": "utama", "track": "klik_reservasi" }
+        ]
+      }
+    },
+    "kunjungi": {
+      "meta": {
+        "title": "Visit & Book",
+        "description": "Check availability per session and book your visit to PIGGI in Banyuwangi. Location, opening hours, contact, and FAQ."
+      },
+      "cta": {
+        "judul": "One more step.",
+        "teks": "Pick a date and a session that still has space.",
+        "tombol": [
+          { "label": "Book a slot", "route": "kunjungi#reservasi", "gaya": "utama", "track": "klik_reservasi" }
+        ]
+      }
+    },
+    "paspor": {
+      "meta": {
+        "title": "Geologist Passport",
+        "description": "Ijen Geologist Passport: collect a stamp at every station during your visit to PIGGI."
+      }
+    },
+    "qr": {
+      "meta": {
+        "title": "Ijen Trail QR",
+        "description": "Ijen Trail QR questions, unlocked only by scanning a QR code at PIGGI."
+      }
+    },
+    "escape": {
+      "meta": {
+        "title": "Blue Fire Mystery",
+        "description": "Companion page for the Blue Fire Mystery escape room for groups at PIGGI."
+      }
+    },
+    "tiket": {
+      "meta": {
+        "title": "Visit Ticket",
+        "description": "View your booking code, QR, and visit reservation status for PIGGI."
+      }
+    },
+    "staf": {
+      "meta": {
+        "title": "Staff Page",
+        "description": "Internal PIGGI staff page."
+      }
+    }
+  },
+  "ui": {
+    "memuat": "Loading…",
+    "gagal": "Couldn't load. Check your connection, then try again.",
+    "cobaLagi": "Try again",
+    "waPesan": "Hello PIGGI, I'd like to ask about visiting.",
+    "menuBuka": "Open menu",
+    "menuTutup": "Close menu"
+  }
+}

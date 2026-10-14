@@ -1,0 +1,212 @@
+{
+  "_catatan": "SEMUA teks situs versi Bahasa Indonesia. Struktur kunci harus sama persis dengan en.json. Kunci berawalan _ adalah catatan, tidak tampil di situs. Setelah mengubah file ini, jalankan Build (Ctrl+Shift+B).",
+  "meta": {
+    "situs": {
+      "nama": "PIGGI",
+      "namaPanjang": "Pusat Informasi Geologi Geopark Ijen",
+      "judulBeranda": "PIGGI · Pusat Informasi Geologi Geopark Ijen, Banyuwangi",
+      "lokasiSingkat": "Banyuwangi, Jawa Timur",
+      "_verifikasi": "[VERIFIKASI] Nama resmi lembaga belum dikonfirmasi; konsep awal memakai dua versi (Geologi / Geopark)."
+    },
+    "locale": "id_ID",
+    "routes": {
+      "beranda": "",
+      "tentang": "tentang",
+      "jelajahi": "jelajahi",
+      "coba-langsung": "coba-langsung",
+      "untuk-sekolah": "untuk-sekolah",
+      "kuis-galeri-agenda": "kuis-galeri-agenda",
+      "kunjungi": "kunjungi",
+      "paspor": "paspor",
+      "qr": "qr",
+      "escape": "escape",
+      "tiket": "tiket",
+      "staf": "staf"
+    }
+  },
+  "nav": {
+    "aria": "Navigasi utama",
+    "lewati": "Langsung ke isi utama",
+    "keBeranda": "PIGGI, ke beranda",
+    "buka": "Buka menu",
+    "tutup": "Tutup menu",
+    "items": {
+      "beranda": "Beranda",
+      "tentang": "Tentang PIGGI",
+      "jelajahi": "Jelajahi PIGGI",
+      "coba-langsung": "Coba Langsung",
+      "untuk-sekolah": "Untuk Sekolah",
+      "kuis-galeri-agenda": "Kuis, Galeri & Agenda",
+      "kunjungi": "Kunjungi & Reservasi"
+    }
+  },
+  "bahasa": {
+    "kode": "ID",
+    "nama": "Bahasa Indonesia",
+    "lainKode": "EN",
+    "lainAria": "Read this page in English"
+  },
+  "cta": {
+    "reservasi": "Reservasi",
+    "wa": "Tanya lewat WhatsApp"
+  },
+  "footer": {
+    "tagline": "Pusat informasi dan wisata edukasi tentang geologi, hayati, dan budaya Geopark Ijen.",
+    "jelajah": "Jelajahi",
+    "kontakJudul": "Kontak",
+    "kontakIsi": "Alamat, jam buka, dan kontak resmi akan dicantumkan di sini. [ISI DARI PIGGI]",
+    "hak": "PIGGI",
+    "catatanData": "Sebagian informasi di situs ini masih menunggu verifikasi pengelola PIGGI."
+  },
+  "umum": {
+    "pilihBahasa": "Pilih bahasa",
+    "segera": {
+      "label": "Sedang disiapkan",
+      "teks": "Isi halaman ini sedang disusun. Sementara itu, silakan lihat halaman lain atau cek kuota kunjungan."
+    },
+    "e404": {
+      "judul": "Halaman tidak ditemukan",
+      "teks": "Tautan mungkin salah, atau halaman sudah dipindahkan.",
+      "kembali": "Kembali ke beranda"
+    }
+  },
+  "halaman": {
+    "beranda": {
+      "meta": {
+        "title": "Beranda",
+        "description": "Pusat informasi dan wisata edukasi geologi Geopark Ijen di Banyuwangi. Cek kuota dan pesan slot kunjungan ke PIGGI secara online."
+      },
+      "hero": {
+        "eyebrow": "Pusat Informasi Geologi Geopark Ijen",
+        "judul": "Lihat Ijen dari dekat, lalu coba sendiri.",
+        "lead": "Kenali cerita geologi, hayati, dan budaya Geopark Ijen. Di PIGGI, kamu bisa mengamati, mencoba, dan bermain langsung.",
+        "tombolUtama": "Cek kuota & reservasi",
+        "tombolKedua": "Jelajahi PIGGI"
+      },
+      "cta": {
+        "judul": "Siap melihatnya langsung?",
+        "teks": "Pilih tanggal, cek sisa kuota, lalu pesan slot kunjunganmu. Check-in dan pembayaran (jika ada) dilakukan di PIGGI.",
+        "tombol": [
+          { "label": "Reservasi sekarang", "route": "kunjungi#reservasi", "gaya": "utama", "track": "klik_reservasi" },
+          { "label": "Jelajahi PIGGI", "route": "jelajahi", "gaya": "kedua", "track": "" }
+        ]
+      }
+    },
+    "tentang": {
+      "meta": {
+        "title": "Tentang PIGGI",
+        "description": "Apa itu PIGGI, sejarah, fungsi, dan tujuannya sebagai pusat informasi geologi Geopark Ijen di Banyuwangi."
+      },
+      "cta": {
+        "judul": "Kenal sudah, sekarang datang.",
+        "teks": "Lihat jam buka, lokasi, dan kuota kunjungan.",
+        "tombol": [
+          { "label": "Kunjungi PIGGI", "route": "kunjungi", "gaya": "utama", "track": "" }
+        ]
+      }
+    },
+    "jelajahi": {
+      "meta": {
+        "title": "Jelajahi PIGGI",
+        "description": "Peta lantai PIGGI: tiap lantai menceritakan satu bab kisah Ijen, dari pembentukan sampai manusia dan budaya."
+      },
+      "cta": {
+        "judul": "Mau tahu apa yang bisa dicoba?",
+        "teks": "Lihat aktivitas dan permainan yang hanya ada di PIGGI.",
+        "tombol": [
+          { "label": "Lihat aktivitas", "route": "coba-langsung", "gaya": "utama", "track": "" }
+        ]
+      }
+    },
+    "coba-langsung": {
+      "meta": {
+        "title": "Coba Langsung",
+        "description": "Aktivitas langsung dan permainan di PIGGI: amati, coba, dan kumpulkan stempel Paspor Geolog saat berkunjung."
+      },
+      "cta": {
+        "judul": "Yang ini harus dicoba di tempat.",
+        "teks": "Pesan slot kunjungan dan rasakan sendiri pengalamannya.",
+        "tombol": [
+          { "label": "Reservasi", "route": "kunjungi#reservasi", "gaya": "utama", "track": "klik_reservasi" }
+        ]
+      }
+    },
+    "untuk-sekolah": {
+      "meta": {
+        "title": "Untuk Sekolah",
+        "description": "Paket kunjungan rombongan sekolah ke PIGGI per jenjang, kaitan dengan pelajaran, dan lembar kerja yang bisa diunduh."
+      },
+      "cta": {
+        "judul": "Bawa kelasmu ke PIGGI.",
+        "teks": "Pesan slot untuk rombongan dan pilih minat escape room.",
+        "tombol": [
+          { "label": "Reservasi rombongan", "route": "kunjungi?jenis=rombongan#reservasi", "gaya": "utama", "track": "klik_reservasi" }
+        ]
+      }
+    },
+    "kuis-galeri-agenda": {
+      "meta": {
+        "title": "Kuis, Galeri & Agenda",
+        "description": "Kuis pemanasan sebelum ke PIGGI, galeri foto, dan agenda kegiatan. Tukarkan kode kuismu saat berkunjung."
+      },
+      "cta": {
+        "judul": "Sudah punya kode kuis?",
+        "teks": "Tukarkan kodemu di PIGGI untuk stempel bonus Paspor Geolog.",
+        "tombol": [
+          { "label": "Pesan kunjungan", "route": "kunjungi#reservasi", "gaya": "utama", "track": "klik_reservasi" }
+        ]
+      }
+    },
+    "kunjungi": {
+      "meta": {
+        "title": "Kunjungi & Reservasi",
+        "description": "Cek kuota per sesi dan pesan kunjungan ke PIGGI Banyuwangi. Lokasi, jam buka, kontak, dan pertanyaan umum."
+      },
+      "cta": {
+        "judul": "Satu langkah lagi.",
+        "teks": "Pilih tanggal dan sesi yang masih tersedia.",
+        "tombol": [
+          { "label": "Pesan slot", "route": "kunjungi#reservasi", "gaya": "utama", "track": "klik_reservasi" }
+        ]
+      }
+    },
+    "paspor": {
+      "meta": {
+        "title": "Paspor Geolog",
+        "description": "Paspor Geolog Ijen: kumpulkan stempel di setiap pos saat berkunjung ke PIGGI."
+      }
+    },
+    "qr": {
+      "meta": {
+        "title": "QR Jejak Ijen",
+        "description": "Soal QR Jejak Ijen, hanya bisa dibuka dengan memindai QR di PIGGI."
+      }
+    },
+    "escape": {
+      "meta": {
+        "title": "Misteri Api Biru",
+        "description": "Pendamping escape room Misteri Api Biru untuk rombongan di PIGGI."
+      }
+    },
+    "tiket": {
+      "meta": {
+        "title": "Tiket Kunjungan",
+        "description": "Lihat kode booking, QR, dan status reservasi kunjungan PIGGI."
+      }
+    },
+    "staf": {
+      "meta": {
+        "title": "Halaman Staf",
+        "description": "Halaman internal staf PIGGI."
+      }
+    }
+  },
+  "ui": {
+    "memuat": "Memuat…",
+    "gagal": "Gagal memuat. Periksa koneksi, lalu coba lagi.",
+    "cobaLagi": "Coba lagi",
+    "waPesan": "Halo PIGGI, saya ingin bertanya tentang kunjungan.",
+    "menuBuka": "Buka menu",
+    "menuTutup": "Tutup menu"
+  }
+}
